@@ -10,7 +10,7 @@ La evaluación consiste en una serie de ejercicios que evalúan la comprensión 
 ## Instrucciones
 
 1.  Clonar este repositorio en tu ordenador. 
-2.  Para realizar la evaluación, debes ejecutar las consultas SQL proporcionadas en el archivo `bbdd_sakila_consultas.sql` sobre la base de datos Sakila.
+2.  Para realizar la evaluación, debes ejecutar las consultas SQL proporcionadas en el archivo `Evaluacion_final_Laura_Gomez.sql` sobre la base de datos Sakila.
 
 ## Archivos del Repositorio
 
