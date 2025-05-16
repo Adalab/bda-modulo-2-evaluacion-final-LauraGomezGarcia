@@ -26,7 +26,23 @@ Este repositorio contiene los siguientes archivos:
 
 ## Base de Datos
 
-Se utiliza la base de datos Sakila, que contiene tablas como `film`, `actor`, `customer`, `rental`, y `category`. 
+Esta base de datos se compone de las siguientes tablas principales:
+
+* **actor:** Información de los actores (id, nombre, apellido, última actualización).
+* **address:** Detalles de las direcciones (id, dirección, distrito, ciudad, código postal, teléfono, ubicación, última actualización).
+* **category:** Categorías de películas (id, nombre, última actualización).
+* **city:** Información de las ciudades (id, nombre, país, última actualización).
+* **country:** Nombres de los países (id, nombre, última actualización).
+* **customer:** Datos de los clientes (id, tienda, nombre, apellido, email, dirección, activo, fecha de creación, última actualización).
+* **film:** Detalles de las películas (id, título, descripción, año de lanzamiento, idioma, idioma original, duración alquiler, tarifa alquiler, duración, costo reemplazo, clasificación, características especiales, última actualización).
+* **film\_actor:** Relación entre películas y actores (actor id, film id, última actualización).
+* **film\_category:** Relación entre películas y categorías (film id, category id, última actualización).
+* **inventory:** Copias individuales de películas en tiendas (id, película, tienda, última actualización).
+* **language:** Idiomas disponibles (id, nombre, última actualización).
+* **payment:** Pagos realizados por clientes (id, cliente, personal, alquiler, monto, fecha pago, última actualización).
+* **rental:** Registros de alquileres (id, fecha alquiler, inventario, cliente, fecha devolución, personal, última actualización).
+* **staff:** Información del personal de la tienda (id, nombre, apellido, dirección, email, tienda, activo, usuario, contraseña, última actualización, imagen).
+* **store:** Detalles de las tiendas (id, gerente, dirección, última actualización).
 
 ## Ejercicios
 
